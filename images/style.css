@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+html, header, body {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: deeppink;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: deeppink;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 600px;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-o-restaurante, #cardapio {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: deeppink;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: deeppink;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: deeppink;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
